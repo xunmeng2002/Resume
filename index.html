@@ -54,6 +54,7 @@
         .nav-links {
             display: flex;
             gap: 2rem;
+            align-items: center;
         }
         .nav-links a {
             text-decoration: none;
@@ -63,6 +64,16 @@
         }
         .nav-links a:hover {
             color: #2c7da0;
+        }
+        /* 新增跳转链接样式 */
+        .nav-links .lang-link {
+            background: #eef2fa;
+            padding: 0.2rem 0.8rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+        }
+        .nav-links .lang-link:hover {
+            background: #e0e8f2;
         }
 
         /* 主容器 */
@@ -388,6 +399,8 @@
                 <a href="#projects">开源</a>
                 <a href="#experience">经历</a>
                 <a href="#strength">优势</a>
+                <a href="index-en.html" class="lang-link">English</a>
+                <a href="resume.html" class="lang-link">完整简历</a>
             </div>
         </div>
     </nav>

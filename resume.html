@@ -40,6 +40,7 @@
             background: linear-gradient(135deg, #0b2b3b 0%, #123e52 100%);
             padding: 2.4rem 2.8rem;
             color: white;
+            position: relative;
         }
         .name {
             font-size: 2.8rem;
@@ -69,6 +70,28 @@
         .contact-bar i {
             width: 18px;
             font-size: 1rem;
+        }
+        /* 跳转链接按钮组 */
+        .page-links {
+            position: absolute;
+            top: 2rem;
+            right: 2.8rem;
+            display: flex;
+            gap: 1rem;
+        }
+        .page-link {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 0.3rem 1rem;
+            border-radius: 40px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .page-link:hover {
+            background: rgba(255,255,255,0.35);
+            color: white;
         }
 
         /* 主体内容 */
@@ -240,6 +263,11 @@
                 font-size: 0.75rem;
                 flex-wrap: wrap;
             }
+            .page-links {
+                position: static;
+                justify-content: flex-end;
+                margin-top: 1rem;
+            }
         }
         @media print {
             body {
@@ -257,6 +285,9 @@
                 text-decoration: none;
                 color: black;
             }
+            .page-links {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -271,6 +302,10 @@
             <span><i class="fas fa-phone-alt"></i> 18019749894</span>
             <a href="https://blog.csdn.net/xunmeng2002" target="_blank" rel="noopener"><i class="fab fa-blogger"></i> blog.csdn.net/xunmeng2002</a>
             <a href="https://github.com/xunmeng2002" target="_blank" rel="noopener"><i class="fab fa-github"></i> github.com/xunmeng2002</a>
+        </div>
+        <div class="page-links">
+            <a href="index.html" class="page-link">中文主页</a>
+            <a href="index-en.html" class="page-link">English Home</a>
         </div>
     </div>
 
