@@ -1,5 +1,5 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
       "has": [
@@ -9,11 +9,13 @@
           "value": "CN"
         }
       ],
-      "destination": "/index.html"
+      "destination": "/index.html",
+      "statusCode": 302
     },
     {
       "source": "/",
-      "destination": "/index-en.html"
+      "destination": "/index-en.html",
+      "statusCode": 302
     }
   ]
 }
