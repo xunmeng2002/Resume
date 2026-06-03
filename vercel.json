@@ -2,13 +2,7 @@
   "redirects": [
     {
       "source": "/",
-      "has": [
-        {
-          "type": "header",
-          "key": "x-vercel-ip-country",
-          "value": "CN"
-        }
-      ],
+      "has": [{"type": "header", "key": "x-vercel-ip-country", "value": "CN"}],
       "destination": "/zh",
       "permanent": false
     },
@@ -16,6 +10,12 @@
       "source": "/",
       "destination": "/en",
       "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
