@@ -9,13 +9,13 @@
           "value": "CN"
         }
       ],
-      "destination": "/index.html",
-      "statusCode": 302
+      "destination": "/zh",
+      "permanent": false
     },
     {
       "source": "/",
-      "destination": "/index-en.html",
-      "statusCode": 302
+      "destination": "/en",
+      "permanent": false
     }
   ]
 }
