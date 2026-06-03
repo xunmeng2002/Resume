@@ -9,7 +9,7 @@
         <a href="#experience">{{ t.nav.experience }}</a>
         <a href="#strength">{{ t.nav.strengths }}</a>
         <a :href="langLink" class="lang-link">{{ t.nav.langSwitch }}</a>
-        <a href="/resume.html" class="lang-link">{{ t.nav.resume }}</a>
+        <a :href="resumeLink" class="lang-link">{{ t.nav.resume }}</a>
       </div>
     </div>
   </nav>
@@ -33,6 +33,9 @@ export default {
     },
     langLink() {
       return this.lang === 'zh' ? '/en' : '/zh'
+    },
+    resumeLink() {
+      return this.lang === 'zh' ? '/resume-zh' : '/resume-en'
     }
   }
 }
