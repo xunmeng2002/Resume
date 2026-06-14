@@ -128,6 +128,15 @@
         <div class="section-title">Open Source Projects</div>
         <div class="project-item">
           <div class="project-title">
+            📚 PersonalLib · C++20 High-Performance Foundation Library
+            <a href="https://github.com/xunmeng2002/PersonalLib" target="_blank">github.com/xunmeng2002/PersonalLib</a>
+          </div>
+          <div class="project-desc">
+            Low-latency infrastructure for HFT/quant trading. Four modules: Core (logging/timer/AOP/threading), Network (cross-platform TCP/shared memory with Epoll/IOCP/Select adapters, pub-sub, protocol framing), TemplateLib (lock-free ring buffer/object pool/queue, pure templates), Serialization (JSON/Base64/CSV, GBK/UTF-8 encoding). Protocol layer unifies I/O, decouples business from transport; used in market data decoding and backtesting.
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-title">
             📁 In-Memory DB – Mdb 
             <a href="https://github.com/xunmeng2002/Mdb" target="_blank">github.com/xunmeng2002/Mdb</a>
           </div>

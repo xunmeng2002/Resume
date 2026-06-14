@@ -133,6 +133,15 @@
         <div class="section-title">开源项目</div>
         <div class="project-item">
           <div class="project-title">
+            📚 PersonalLib · C++20 高性能基础库
+            <a href="https://github.com/xunmeng2002/PersonalLib" target="_blank">github.com/xunmeng2002/PersonalLib</a>
+          </div>
+          <div class="project-desc">
+            专为高频/量化交易提供底层基础设施。包含四大模块：Core（日志/定时器/AOP/线程）、Network（跨平台TCP/共享内存，工厂模式自动适配Epoll/IOCP/Select，内置发布订阅与协议分帧）、TemplateLib（无锁环形缓冲区/对象池/队列，纯模板实现）、Serialization（JSON/Base64/CSV 及 GBK/UTF-8 编解码）。Protocol层统一I/O接口，业务与传输解耦，已应用于行情解码与回测系统。
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-title">
             📁 内存数据库 – Mdb 
             <a href="https://github.com/xunmeng2002/Mdb" target="_blank">github.com/xunmeng2002/Mdb</a>
           </div>
